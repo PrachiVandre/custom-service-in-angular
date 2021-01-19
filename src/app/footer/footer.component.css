@@ -1,0 +1,32 @@
+.text{
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    position: relative;
+    background: #fff;
+   
+}
+.wrapperFoot{position: relative;height:160px;}
+button{
+    margin:0 auto;
+}
+.text h1{
+    color: #0f3a78;
+    text-align: center;
+    margin:0 auto;
+    font-family:'Quicksand-Light';
+}
+footer{
+    background: url('../../assets/image/footer-graphics.png') no-repeat bottom;
+    background-size: 100%;
+    text-align:Center;
+    font-size: 14px;
+    height:200px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    bottom: 0;
+    position: absolute;
+}

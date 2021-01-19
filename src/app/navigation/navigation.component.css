@@ -1,0 +1,117 @@
+.nav2{
+    height:60px;
+    line-height: 60px;
+    background-color: #0f3a78;
+    position: relative;
+    z-index:9999;
+}
+.leftNav{
+    display: flex;
+    color:#fff;
+}
+.leftNav a{
+    padding: 0;
+}
+.logo{
+    font-size:30px;
+    color:#fff;
+    font-family: 'Quicksand-Light';
+}
+.contact{margin:0 30px;}
+i{ margin-right:5px;color:#ffd946;}
+.logo span{
+    color:#ffd946;
+    font-family: 'Noto-SansBold';
+}
+.rightNav ul{
+    float: right;
+    text-align: right;
+    margin:0 auto;
+}
+.rightNav ul li{text-align: right;}
+.rightNav ul li a{
+    padding:0;
+    color:#fff;
+    text-transform: uppercase;
+    padding:0 15px;
+    font-size:14px;
+    transition:color 1s;
+}
+.rightNav ul li a:hover{color:#ffd946;}
+
+@media (max-width: 480px) { 
+    .leftNav{
+        display: initial;
+    }
+    .leftNav a{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom:-33px;
+    }
+    .contact{
+        font-size: 12px;
+        display: block;
+        margin: 0;
+        width: auto;
+        display: inline-block;
+        text-align: right;
+        margin-left: 70px;
+    }
+    .contact + span{
+        display: inline-block;
+        font-size:12px;
+        margin:0 10px;
+    }
+    .rightNav{
+        display: none;
+    }
+  
+} 
+/* media query for Portrait */
+@media only screen and (max-width: 480px) {
+    .nav2{
+        height: auto;
+    }
+    .contact{
+        margin-left:50px;
+    }
+}
+
+/* Media query for Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (orientation: landscape) {
+   
+    .logo{
+        font-size: 16px;
+    }
+    .contact{
+        margin: 0 8px;
+    }
+    .contact,.leftNav{
+        font-size: 12px;
+    }
+    .rightNav{
+        padding: 0;
+    }
+    .rightNav ul li a{
+        padding: 0 6px;
+        font-size: 12px;
+        transition: color 1s;
+    }
+   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .contact{
+        margin : 0 10px;
+    }
+    .leftNav{
+        font-size: 13px;
+    }
+    .rightNav ul li{
+        margin-top: 3px;
+    }
+}

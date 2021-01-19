@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin:0!important;
+    padding:0;
+    overflow-x:hidden;
+}
+.section-divider{
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #1dc8cd;
+    background: linear-gradient(0deg,#1dc8cd 0,#55fabe 100%);
+    margin: 0 auto 20px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+@font-face {
+    font-family:'Noto-SansBold';
+    src: url('assets/font/NotoSans-Bold/NotoSansBold.eot');
+    src: url('assets/font/NotoSans-Bold/NotoSansBold.woff');
+    src: url('assets/font/NotoSans-Bold/NotoSansBold.woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2074;
+}
+
+@font-face {
+    font-family:'Quicksand-Light';
+    src: url('assets/font/Quicksand-Light/QuicksandLight.eot');
+    src: url('assets/font/Quicksand-Light/QuicksandLight.woff');
+    src: url('assets/font/Quicksand-Light/QuicksandLight.woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2044;
+}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    .nav2{
+        width:100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .nav2{
+        width:100%;
+        margin: 0 auto;
+    }
+    .contact{
+        font-size: 12px;
+        margin: 0 10px;
+    }
+}
